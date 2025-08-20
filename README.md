@@ -52,6 +52,15 @@ Perform operations relative to that address.
 
 Manipulate data indirectly.
 
+### Example Table  
+
+| Data Type | Size (bytes) | Initial Address | After `ptr++` |
+|-----------|--------------|-----------------|---------------|
+| int       | 4            | 1000            | 1004          |
+| float     | 4            | 2000            | 2004          |
+| bool      | 1            | 3000            | 3001          |
+| double    | 8            | 4000            | 4008          |
+
 
 
 
@@ -77,10 +86,7 @@ Example Table
 
 Data Type	Size (bytes)	Initial Address	After ptr++
 
-int	4	1000	1004
-float	4	2000	2004
-bool	1	3000	3001
-double	8	4000	4008
+
 
 
 
